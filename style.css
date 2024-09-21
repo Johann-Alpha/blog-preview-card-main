@@ -222,7 +222,7 @@ body {
     .author {
         margin-left: 12px;
         position: relative;
-        top: -4.5px;
+        top: -5.5px;
         /* line-height: var(--medium-line-height); */
         font-size: var(--remaining-font-size);
         font-weight: 800;
