@@ -165,10 +165,12 @@ body {
     .container {
         width: 336px;
         margin: 0;
+        padding: 0;
     }
     
     img {
         border-radius: 10px;
+        width: 100%;
         height: 200px;
         display: block;
     }
@@ -197,7 +199,7 @@ body {
         font-size: var(--heading-font-size);
         font-style: normal;
         font-weight: 800;
-        line-height: var(--large-line-height);
+        /* line-height: var(--large-line-height); */
     }
     
     h1:hover, h1:active, h1:focus {
@@ -213,7 +215,7 @@ body {
         font-size: var(--paragraph-font-size);
         font-style: normal;
         font-weight: 500;
-        line-height: 24px;
+        /* line-height: 24px; */
         color: var(--color-gray-500, #6B6B6B);
     }
     .inner-text {
