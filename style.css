@@ -1,0 +1,134 @@
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+    font-weight: 500 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format('truetype');
+    font-weight: 500 800;
+    font-style: italic;
+}
+
+:root {
+    --heading-font-size: 24px;
+    --paragraph-font-size: 16px;
+    --remaining-font-size: 14px;
+    --medium-line-height: 21px;
+    --large-line-height: 36px;
+    --yellow-hue: hsl(47, 88%, 63%);
+    --color-grey-500: hsl(0, 0%, 42%);
+    --color-grey-950: hsl(0, 0%, 7%);
+    --color-white: hsl(0, 0%, 100%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Figtree, sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    max-height: 100vh;
+    position: relative;
+}
+
+main {
+    box-sizing: border-box;
+    width: 384px;
+    /* height: 522px; */
+    padding: 24px;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #000;
+    background-color:hsl(0, 0%, 100%);
+    position: relative;
+    top: 50vh;
+    left: 50%;
+    margin-top: -261px;
+    margin-left: -192px;
+}
+
+.container {
+    width: 336px;
+    margin: 0;
+}
+
+img {
+    border-radius: 10px;
+    height: 200px;
+}
+
+.text-container {
+    margin: 24px 0;
+}
+
+.learning {
+    box-sizing: border-box;
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    background-color: var(--yellow-hue);
+    text-align: center;
+    vertical-align: middle;
+    padding: 4px 12px;
+    font-weight: 800;
+    font-size: 14px;
+    font-style: normal;
+    justify-content: center;
+    line-height: var(--medium-line-height);
+}
+
+h1 {
+    font-size: var(--heading-font-size);
+    font-style: normal;
+    font-weight: 800;
+    line-height: var(--large-line-height);
+}
+
+p {
+    font-size: var(--remaining-font-size);
+}
+
+.copy {
+    font-size: var(--paragraph-font-size);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--color-gray-500, #6B6B6B);
+}
+.inner-text {
+    margin-top: 12px;
+}
+
+footer {
+}
+
+.author {
+    margin-left: 12px;
+    position: relative;
+    top: -4.5px;
+    line-height: var(--medium-line-height);
+    font-size: var(--remaining-font-size);
+    font-weight: 800;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: text-bottom; 
+    /* This will make the icon align with the bottom of the enclosing box. Previously, I had the problem that the doble-storey g made the footer's box not allign with the icon, because the g was taking up bottom space. Vertical align text bottom makes the icon align with the bottom of the letter g, so that everything's aligned. */
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 0 auto;
+    position: inherit;
+    top: 522px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
