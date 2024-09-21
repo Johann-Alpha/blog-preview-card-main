@@ -179,7 +179,7 @@ body {
     .learning {
         box-sizing: border-box;
         width: 82px;
-        /* height: 29px; */
+        height: 29px;
         border-radius: 4px;
         background-color: var(--yellow-hue);
         text-align: center;
