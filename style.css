@@ -170,6 +170,7 @@ body {
     img {
         border-radius: 10px;
         height: 200px;
+        display: block;
     }
     
     .text-container {
