@@ -184,7 +184,7 @@ body {
         background-color: var(--yellow-hue);
         text-align: center;
         vertical-align: middle;
-        padding: 4px 12px;
+        padding: auto 12px;
         font-weight: 800;
         font-size: 14px;
         font-style: normal;
